@@ -6,7 +6,7 @@
 </head>
 <body>
 <form method ="POST">
-    <p><input type="number" name="number"/></p>
+    <p>Arrays <input type="number" name="number"/></p>
     <input type = "submit" value="ok">
 </form>
 <?php
