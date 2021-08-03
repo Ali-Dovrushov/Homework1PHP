@@ -5,6 +5,7 @@
         $numbers2 = [];
         $counter = 0;
         $checker = 1;
+        $checkerForOddEvenArray = 1;
 
         if (count($numbers1) % 2 != 0) {
             $checkerForOddEvenArray = 1;
@@ -29,18 +30,19 @@
                 if ($i < count($numbers1) / 2) {
                     $numbers2[count($numbers1) / 2 + $checkerForOddEvenArray] = $numbers1[$i];
                     $checkerForOddEvenArray++;
-                    echo $numbers2;
                 }
                 elseif ($i > count($numbers1) / 2 - 1) {
                     $numbers2[$counter] = $numbers1[$i];
                     $counter++;
-//                    echo $numbers2;
                 }
                 elseif ($i == count($numbers1) / 2 + 1) {
                     $numbers2[$i] = $numbers1[$i];
-//                    echo $numbers2;
                 }
             }
+        }
+
+        foreach ($numbers2 as $elements) {
+            echo "sal" . $numbers2;
         }
     }
 ?>
