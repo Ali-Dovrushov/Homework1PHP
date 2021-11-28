@@ -17,10 +17,10 @@
             echo "Today very hot weather.";
         }
         elseif ($weather < -20){
-            echo "Today very pizdec cold weather.";
+            echo "Today very cold weather.";
         }
         elseif ($weather > 45){
-            echo "Today very pizdec hot weather.";
+            echo "Today very hot weather.";
         }
     }
 ?>
